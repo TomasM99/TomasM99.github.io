@@ -29,7 +29,7 @@ a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 li { line-height: 24px; border-bottom: 1px solid #ccc; }
-p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
+p.enlarge { font-size: 120%; padding-right: 6.5em; line-height: 24px; }
 p.enlarge span { color: #000 }
 .contact-info { margin-top: 7px; }
 .first h2 { font-style: italic; }
@@ -61,4 +61,17 @@ a#pdf:hover { background: #222; }
 
 html{
     background: url("../multimedia/background-3.jpg");
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+.contacto p{
+    padding: 5px;
+}
+.contacto img{
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
 }
