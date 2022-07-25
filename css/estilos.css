@@ -75,3 +75,6 @@ html{
     height: 24px;
     padding-right: 5px;
 }
+.justificado{
+    text-align: justify;
+}
